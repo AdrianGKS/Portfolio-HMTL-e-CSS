@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #F0EDCF;
-    --cor-terciaria: #40A2D8;
-    --cor-hover: #0B60B0;
+    --cor-primaria: #0F0F0F;
+    --cor-secundaria: #008170;
+    --cor-terciaria: #005B41;
+    --cor-hover: #232D3F;
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
@@ -33,13 +33,14 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-hover);
+    color: var(--cor-secundaria);
     text-decoration: none;
     transition: 0.5s;
 }
 
 .cabecalho__menu__link:hover {
-    color: var(--cor-terciaria);
+    border-radius: 20px;
+    background-color: var(--cor-hover);
 }
 
 .titulo-destaque {
